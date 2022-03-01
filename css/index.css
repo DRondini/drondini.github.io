@@ -33,7 +33,7 @@ a::before {
 
 }
 
-    #button {
+#button {
         display: inline-block;
         background-color: #F25A70;
         height: 60px;
@@ -49,27 +49,29 @@ a::before {
     transition: 0.5s;
   }
 
-  #button:after {
-    content: "Download";
-    background-color: #000;
-    position: absolute;
-    height: 60px;
-        line-height: 60px;
-        padding-left: 20px;
-        padding-right: 20px;
-        box-shadow: 5px 5px 0px #F25A70;
-        margin-right: 0px;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.30s;
+    #button:after {
+      content: "Download";
+      background-color: #000;
+      position: absolute;
+      height: 60px;
+      line-height: 60px;
+      padding-left: 20px;
+      padding-right: 20px;
+      box-shadow: 5px 5px 0px #F25A70;
+      margin-right: 0px;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.30s;
   }
 
-  #button:hover {
-    padding-right: 0px;
+    #button:hover {
+      padding-right: 0px;
   }
 
-  #button:hover:after {
-    opacity: 1;
-    right: 0;
+    #button:hover:after {
+      opacity: 1;
+      right: 0;
   }
+
+
