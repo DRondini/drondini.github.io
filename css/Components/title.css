@@ -6,12 +6,8 @@ h1 {
     font-weight: normal;
     color: #F25A70;
     text-shadow: 4px 4px 0px #000000;
-
-    position: absolute;
-    width: 560px;
-    height: 40px;
-    left: 179px;
-    top: 238px;
+    margin: 0;
+    
   }
 
   h2 {
@@ -22,10 +18,5 @@ h1 {
     font-weight: normal;
     color: #fff;
     text-shadow: 4px 4px 0px #000000;
-
-    position: absolute;
-    width: 540px;
-    height: 30px;
-    left: 190px;
-    top: 306px;
+    margin: 0;
   } 
